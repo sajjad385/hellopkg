@@ -2,10 +2,10 @@
 
 namespace Sajjad385\Hellopkg;
 
-class Greeting
+class Greetings
 {
 
-    public function print($greeting)
+    public function welcome($greeting)
     {
         return "Hello! $greeting";
     }
