@@ -7,6 +7,6 @@ class Greeting
 
     public function print($greeting)
     {
-        echo "Hello! $greeting";
+        return "Hello! $greeting";
     }
 }
