@@ -1,0 +1,18 @@
+{
+    "name": "xpeedstudio/hellopkg",
+    "description": "This is a simple package to print hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Xpeedstudio\\Hellopkg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sajjad-xs",
+            "email": "sajjad@xpeedstudio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
