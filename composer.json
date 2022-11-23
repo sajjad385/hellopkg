@@ -15,8 +15,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "repositories": [], 
+    "require": {
+        "php": "^8.0"
+    },
+    "repositories": [],
     "license": [
         "LGPL-2.1-only",
         "GPL-3.0-or-later"
