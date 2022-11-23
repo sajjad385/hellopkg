@@ -1,6 +1,6 @@
 <?php
 
-namespace Xpeedstudio\Hellopkg;
+namespace Sajjad385\Hellopkg;
 
 class Greeting
 {

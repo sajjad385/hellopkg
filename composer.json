@@ -1,10 +1,10 @@
 {
-    "name": "xpeedstudio/hellopkg",
+    "name": "sajjad385/hellopkg",
     "description": "This is a simple package to print hello",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Xpeedstudio\\Hellopkg\\": "src/"
+            "Sajjad385\\Hellopkg\\": "src/"
         }
     },
     "authors": [
