@@ -8,4 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Sajjad385\\Hellopkg\\Tests\\' => array($baseDir . '/tests'),
     'Sajjad385\\Hellopkg\\' => array($baseDir . '/src'),
+    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );
