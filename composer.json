@@ -8,6 +8,11 @@
             "Sajjad385\\Hellopkg\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Sajjad385\\Hellopkg\\Tests\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "sajjad-xs",
@@ -22,5 +27,6 @@
     "license": [
         "LGPL-2.1-only",
         "GPL-3.0-or-later"
-    ]
+    ],
+    "prefer-stable": true
 }
