@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Xpeedstudio\\Hellopkg\\' => array($baseDir . '/src'),
+    'Sajjad385\\Hellopkg\\Tests\\' => array($baseDir . '/tests'),
+    'Sajjad385\\Hellopkg\\' => array($baseDir . '/src'),
 );

@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Sajjad385\\Hellopkg\\Greetings' => $baseDir . '/src/Greetings.php',
+    'Sajjad385\\Hellopkg\\PasswordGenerate' => $baseDir . '/src/PasswordGenerate.php',
 );

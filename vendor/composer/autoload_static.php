@@ -7,14 +7,19 @@ namespace Composer\Autoload;
 class ComposerStaticInitb697513eea4a158e576457bee80c72a8
 {
     public static $prefixLengthsPsr4 = array (
-        'X' => 
+        'S' => 
         array (
-            'Xpeedstudio\\Hellopkg\\' => 21,
+            'Sajjad385\\Hellopkg\\Tests\\' => 25,
+            'Sajjad385\\Hellopkg\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Xpeedstudio\\Hellopkg\\' => 
+        'Sajjad385\\Hellopkg\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Sajjad385\\Hellopkg\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,6 +27,8 @@ class ComposerStaticInitb697513eea4a158e576457bee80c72a8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Sajjad385\\Hellopkg\\Greetings' => __DIR__ . '/../..' . '/src/Greetings.php',
+        'Sajjad385\\Hellopkg\\PasswordGenerate' => __DIR__ . '/../..' . '/src/PasswordGenerate.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
